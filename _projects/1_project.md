@@ -15,4 +15,4 @@ full open-source analog design flow end-to-end.
 - Performed parasitic extraction and analyzed pre- vs. post-layout behavioral deviations
 - Automated GDS, DRC, and LVS checks using GitHub Actions CI
 
-Check out the project website [Project Website](https://pattavardhanam.github.io/lelo_ex_sky130a/)
+Check out the [project website](https://pattavardhanam.github.io/lelo_ex_sky130a/)
