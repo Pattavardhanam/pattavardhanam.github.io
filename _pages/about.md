@@ -35,8 +35,7 @@ at the signal level.
 I serve as **Co-Lead of Product Development** and **Coordinator for Design & Prototyping**
 at [MARVEL](https://uvce.ac.in), a student-run, alumni-funded makerspace at UVCE focused on
 hands-on engineering and open-source hardware. I am currently a research intern at
-**IISc's Department of Aerospace Engineering** under
-[Prof. Dineshkumar Harursampath](https://aero.iisc.ac.in), and have been selected for the
+**IISc's Department of Aerospace Engineering** and have been selected for the
 **IIT Madras Summer Fellowship in IC Design** (Digital/Analog/Mixed-Signal).
 
 My active technical work includes:
