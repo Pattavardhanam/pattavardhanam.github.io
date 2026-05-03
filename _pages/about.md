@@ -3,9 +3,10 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  B.Tech ECE @ <a href="https://uvce.ac.in">UVCE</a> · 
-  Research Intern @ <a href="https://aero.iisc.ac.in">IISc Aerospace</a> · 
-  Incoming Summer Fellow @ IIT Madras EE
+  ECE Undergraduate · <a href="https://uvce.ac.in">UVCE, Bengaluru</a> ·
+  Research Intern, <a href="https://aero.iisc.ac.in">IISc Aerospace Engineering</a> ·
+  Coordinator - Design & Prototyping , <a href="hub.uvcemarvel.in">IISc Aerospace Engineering</a> ·
+  Co-Lead Product Development, <a href="hub.uvcemarvel.in">MARVEL Makerspace</a> 
 
 profile:
   align: right
@@ -13,30 +14,44 @@ profile:
   image_circular: false
   more_info:
 
-news: true
 selected_papers: false
 social: true
+announcements:
+  enabled: false
+  scrollable: true
+  limit: 5
+latest_posts:
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-I'm an Electronics and Communication Engineering student at UVCE (CGPA: 9.07/10),
-focused on **VLSI design**, **mixed-signal circuits**, and **avionics power systems**.
+I am a third-year Electronics and Communication Engineering undergraduate at the
+[University of Visvesvaraya College of Engineering (UVCE)](https://uvce.ac.in), Bengaluru,
+with a CGPA of 9.07. My work sits at the intersection of analog IC design, RF/microwave
+systems, and embedded hardware — I care about circuits that interact with the physical world
+at the signal level.
 
-My work sits at the intersection of analog and digital — from transistor-level CMOS
-design in Xschem/Ngspice to RTL in SystemVerilog, and from PCB layout in Altium to
-Battery Management Systems for eVTOL platforms.
+I serve as **Co-Lead of Product Development** and **Coordinator for Design & Prototyping**
+at [MARVEL](https://uvce.ac.in), a student-run, alumni-funded makerspace at UVCE focused on
+hands-on engineering and open-source hardware. I am currently a research intern at
+**IISc's Department of Aerospace Engineering** under
+[Prof. Dineshkumar Harursampath](https://aero.iisc.ac.in), and have been selected for the
+**IIT Madras Summer Fellowship in IC Design** (Digital/Analog/Mixed-Signal).
 
-Currently, I'm a **Research Intern at IISc's Department of Aerospace Engineering**
-(Project Urdhyuth), where I lead the Avionics team under Prof. Dineshkumar
-Harursampath. We're developing a Power Management System and BMS for an eVTOL
-platform. I'm also an incoming **Summer Research Fellow at IIT Madras (EE Dept.)** for
-2026, where I'll be working on Integrated Circuit Design.
+My active technical work includes:
 
-At UVCE, I co-lead the **Design & Prototyping vertical at MARVEL**, our R&D lab —
-mentoring student projects in FPGA, PCB, and signal processing, and co-leading the
-Product Development cohort.
+- **Analog IC Design** — StrongARM latch comparator migrated to Sky130B PDK (Xschem + ngspice),
+  building toward open-source analog IP for MARVEL's coursework and Tiny Tapeout submission
+- **RF/Spectrum Systems** — Hardware-aware spectrum monitoring of the 865–867 MHz ISM band,
+  combining an envelope detector, CMOS comparator threshold, and FPGA-based FFT (Basys3)
+- **Embedded Hardware** — HeartGuard HG V1.1, a reduced-lead arrhythmia detection PCB using
+  ADS1298 + STM32F411 + BLE, targeting real-time ECG classification with minimal leads
+- **Power Systems** — CanSat power architecture: Li-ion 18650 → LDO for MCU/sensors,
+  boost converter for servo, with full power budget and battery sizing
 
-I also authored **[Before We Scale: Design at the Edge of Intent](#)**, an 18-chapter
-work on design philosophy used as foundational reading for our product cohort.
+I won the **SiliconSprint Digital Design Hackathon** (IEEE NITK & UVCE) and the
+**MARVEL CTARA Hackathon 2025**. 
 
-Outside of engineering, I'm a performing guitarist and vocalist, and an avid table
-tennis player.
+My tool stack includes Magic, Netgen, Xschem, ngspice,
+volare, and the Sky130B PDK on Ubuntu 24.04.
