@@ -5,9 +5,6 @@ description: Full analog design flow on SKY130A — schematic to post-layout ver
 img:
 importance: 1
 category: vlsi
-links:
-  - name: Project Site
-    url: https://pattavardhanam.github.io/lelo_ex_sky130a/
 ---
 
 Designed and verified a CMOS current mirror on the SKY130A PDK on Linux, completing the
@@ -17,3 +14,5 @@ full open-source analog design flow end-to-end.
 - Completed full flow: schematic → layout → GDS generation → DRC → LVS → post-layout verification
 - Performed parasitic extraction and analyzed pre- vs. post-layout behavioral deviations
 - Automated GDS, DRC, and LVS checks using GitHub Actions CI
+
+Check out the project website [Project Website](https://pattavardhanam.github.io/lelo_ex_sky130a/)
