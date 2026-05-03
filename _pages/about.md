@@ -49,9 +49,6 @@ My active technical work includes:
   ADS1298 + STM32F411 + BLE, targeting real-time ECG classification with minimal leads
 - **Power Systems** — CanSat power architecture: Li-ion 18650 → LDO for MCU/sensors,
   boost converter for servo, with full power budget and battery sizing
-
-I won the **SiliconSprint Digital Design Hackathon** (IEEE NITK & UVCE) and the
-**MARVEL CTARA Hackathon 2025**. 
-
+  
 My tool stack includes Magic, Netgen, Xschem, ngspice,
 volare, and the Sky130B PDK on Ubuntu 24.04.
