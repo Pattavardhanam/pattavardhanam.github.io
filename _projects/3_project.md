@@ -4,7 +4,7 @@ title: Hardware-Aware Spectrum Monitor
 description: ISM band channel occupancy analyzer with jammer-like anomaly detection — CMOS role
 img:
 importance: 3
-category: hardware
+category: vlsi
 ---
 
 Passive, hardware-aware spectrum sensing platform for real-time channel occupancy analysis
