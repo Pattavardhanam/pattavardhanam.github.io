@@ -11,9 +11,7 @@ profile:
   align: right
   image:
   image_circular: false
-  more_info: >
-    <p>Bengaluru, Karnataka, India</p>
-    <p>aditya.pattavardhanam@gmail.com</p>
+  more_info:
 
 news: true
 selected_papers: false
