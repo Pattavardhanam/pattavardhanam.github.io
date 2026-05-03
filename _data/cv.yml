@@ -1,115 +1,133 @@
-{
-  "basics": {
-    "name": "Aditya B Pattavardhanam",
-    "label": "ECE Student | VLSI & Mixed-Signal Engineer",
-    "email": "aditya.pattavardhanam@gmail.com",
-    "phone": "+91-888-400-6886",
-    "url": "https://<your-github-username>.github.io",
-    "summary": "ECE student at UVCE focused on VLSI, mixed-signal circuits, and avionics power systems. Research Intern at IISc Aerospace Engineering and Incoming Summer Fellow at IIT Madras.",
-    "location": {
-      "city": "Bengaluru",
-      "region": "Karnataka",
-      "countryCode": "IN"
-    },
-    "profiles": [
-      { "network": "LinkedIn", "username": "pattavardhanam", "url": "https://linkedin.com/in/pattavardhanam" },
-      { "network": "GitHub", "username": "<your-github-username>", "url": "https://github.com/<your-github-username>" }
-    ]
-  },
-  "education": [
-    {
-      "institution": "University of Visvesvaraya College of Engineering (UVCE)",
-      "area": "Electronics & Communication Engineering",
-      "studyType": "Bachelor of Technology",
-      "endDate": "2027",
-      "score": "9.07/10 (5th Sem)"
-    },
-    {
-      "institution": "BASE PU College, Rajajinagar",
-      "area": "XII — Karnataka State Board",
-      "endDate": "2023",
-      "score": "91%"
-    },
-    {
-      "institution": "Daffodils English School",
-      "area": "X — ICSE",
-      "endDate": "2021",
-      "score": "91%"
-    }
-  ],
-  "work": [
-    {
-      "name": "IISc — Dept. of Aerospace Engineering (Project Urdhyuth)",
-      "position": "Research Intern – Avionics & Propulsion | Team Lead (Avionics)",
-      "startDate": "2025-07",
-      "summary": "Guided by Prof. Dineshkumar Harursampath (IISc) and Prof. Ramesh Gupta (NITTR-Bhopal).",
-      "highlights": [
-        "Developing a Power Management System in MATLAB: load modeling, protection logic, subsystem interface for eVTOL",
-        "Co-designed Li-Ion NMC battery architecture and implemented BMS functions for monitoring, balancing, and safety protection",
-        "Actively researching Hardware-Based BMS architectures"
-      ]
-    },
-    {
-      "name": "IIT Madras — Dept. of Electrical Engineering",
-      "position": "Incoming Summer Research Fellow",
-      "startDate": "2026-05",
-      "endDate": "2026-07",
-      "highlights": [
-        "Selected for the Summer Fellowship Programme 2026 based on academic credentials",
-        "To work on Integrated Circuit Design"
-      ]
-    },
-    {
-      "name": "MARVEL UVCE, R&D Lab",
-      "position": "Coordinator Design & Prototyping | Co-Lead Product Development",
-      "startDate": "2023-10",
-      "highlights": [
-        "Mentored student electronics designs in PCB, FPGA, and signal processing",
-        "Co-leading product development cohort focusing on end-to-end hardware solutions",
-        "Co-developed AIR-001 syllabus emphasizing avionics-oriented electronics design",
-        "Authored 'Before We Scale: Design at the Edge of Intent' for the product cohort"
-      ]
-    }
-  ],
-  "skills": [
-    { "name": "Digital Design", "keywords": ["RTL (Verilog, SystemVerilog)", "FPGA (Vivado, Quartus)", "Verification Testbenches"] },
-    { "name": "Analog / CMOS", "keywords": ["CMOS Circuit Design", "SPICE-level Analysis", "Signal Conditioning"] },
-    { "name": "EDA Tools", "keywords": ["Vivado", "Altium Designer", "KiCad", "LTspice", "Ngspice", "MATLAB"] },
-    { "name": "Embedded & Hardware", "keywords": ["PCB Design", "Power Electronics"] },
-    { "name": "Programming", "keywords": ["Verilog", "SystemVerilog", "SPICE", "C/C++", "Python", "Java"] },
-    { "name": "Domains", "keywords": ["VLSI", "Battery Management Systems", "Power Management", "Avionics"] }
-  ],
-  "awards": [
-    { "title": "1st Place – MARVEL CTARA Hackathon 2025", "awarder": "MARVEL UVCE" },
-    { "title": "1st Place – Impetus 2025 AvionX Electrical Subsystem", "awarder": "IEEE UVCE" },
-    { "title": "Winner – SiliconSprint Digital Design Hackathon", "awarder": "IEEE NITK & RVCE" },
-    { "title": "1st Place – Kagada 2023 Project Track", "awarder": "IEEE UVCE" },
-    { "title": "1st Place – Science Spectrum", "awarder": "Christ University" },
-    { "title": "Best Performer Award D-P-001 Level 1", "awarder": "MARVEL UVCE" }
-  ],
-  "certificates": [
-    { "name": "VLSI Chip Design and Simulation with Electric VLSI EDA Tool", "issuer": "L&T EduTech / Coursera" },
-    { "name": "Fundamentals of Digital Design for VLSI Chip Design", "issuer": "L&T EduTech / Coursera" },
-    { "name": "FPGA Design for Embedded Systems", "issuer": "University of Colorado Boulder / Coursera" },
-    { "name": "Altium Designer", "issuer": "Altium Education" },
-    { "name": "ROS 2 Fundamentals", "issuer": "Udemy" }
-  ],
-  "volunteer": [
-    {
-      "organization": "UVCE Graduates Association",
-      "position": "Podcast Editor and Host",
-      "startDate": "2024-01",
-      "summary": "Edited and hosted 13 episodes across Seasons 4–6 of UVCE Chronicles"
-    },
-    {
-      "organization": "IEEE UVCE",
-      "position": "Representative Committee, Coordinator – Power Electronics Society (PELS)",
-      "startDate": "2024-05",
-      "endDate": "2024-10"
-    }
-  ],
-  "interests": [
-    { "name": "Music", "keywords": ["Guitarist", "Vocalist", "Performing artist"] },
-    { "name": "Sports", "keywords": ["Table Tennis"] }
-  ]
-}
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Aditya B Pattavardhanam
+    - name: Email
+      value: aditya.pattavardhanam@gmail.com
+    - name: Phone
+      value: +91-888-400-6886
+    - name: Location
+      value: Bengaluru, Karnataka, India
+    - name: LinkedIn
+      value: linkedin.com/in/pattavardhanam
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.Tech in Electronics & Communication Engineering
+      institution: University of Visvesvaraya College of Engineering (UVCE)
+      year: 2023–2027
+      description:
+        - "CGPA: 9.07/10 (5th Semester)"
+    - title: XII — Karnataka State Board
+      institution: BASE PU College, Rajajinagar
+      year: 2023
+      description:
+        - "Score: 91%"
+    - title: X — ICSE
+      institution: Daffodils English School
+      year: 2021
+      description:
+        - "Score: 91%"
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern – Avionics & Propulsion | Team Lead (Avionics)
+      institution: IISc, Dept. of Aerospace Engineering (Project Urdhyuth)
+      year: Jul 2025–Now
+      description:
+        - Guided by Prof. Dineshkumar Harursampath (IISc) and Prof. Ramesh Gupta (NITTR-Bhopal)
+        - Developing a Power Management System in MATLAB for an eVTOL platform
+        - Co-designed Li-Ion NMC battery architecture and implemented BMS functions
+        - Actively researching Hardware-Based BMS architectures
+    - title: Incoming Summer Research Fellow
+      institution: IIT Madras, Dept. of Electrical Engineering
+      year: May–Jul 2026
+      description:
+        - Selected for the Summer Fellowship Programme 2026
+        - To work on Integrated Circuit Design
+    - title: Coordinator Design & Prototyping | Co-Lead Product Development
+      institution: MARVEL UVCE, R&D Lab
+      year: Oct 2023–Now
+      description:
+        - Mentored student electronics designs in PCB, FPGA, and signal processing
+        - Co-leading product development cohort focusing on end-to-end hardware solutions
+        - Co-developed AIR-001 syllabus emphasizing avionics-oriented electronics design
+        - Authored "Before We Scale — Design at the Edge of Intent"
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: CMOS Current Mirror Design & Verification
+      year: 2024
+      description:
+        - Full analog design flow on SKY130A — schematic to post-layout verification
+        - Transient, corner, and Monte Carlo simulations; DRC, LVS, parasitic extraction
+        - Automated GDS, DRC, and LVS checks using GitHub Actions
+    - title: HeartGuard — ECG Anomaly Detection Device
+      year: 2024
+      description:
+        - Analog front-end using TI ADS1298 (8-channel, 24-bit ECG AFE)
+        - Custom 4-layer PCB in Altium with STM32F411 and BLE module
+    - title: Hardware-Aware Spectrum Monitoring
+      year: 2024
+      description:
+        - StrongARM latch comparator achieving 6–7 mV sensitivity and 10 ns decision time
+        - Jammer-like anomaly detection using LoRa and FPGA
+    - title: Hardware Trojan Detection
+      year: 2024
+      description:
+        - RTL-level trojan injection and detection via switching activity analysis
+        - 70,000 cycles of constrained-random stimulus; Python-based side-channel pipeline
+    - title: CanSat — Can-Sized Satellite
+      year: 2024
+      description:
+        - Leading power subsystem design and architecture
+
+- title: Skills
+  type: list
+  contents:
+    - "<u>Digital Design:</u> RTL (Verilog, SystemVerilog), FPGA (Vivado, Quartus), Verification Testbenches"
+    - "<u>Analog/CMOS:</u> CMOS Circuit Design, SPICE-level Analysis, Signal Conditioning"
+    - "<u>EDA Tools:</u> Vivado, Altium Designer, KiCad, LTspice, Ngspice, MATLAB"
+    - "<u>Programming:</u> Verilog, SystemVerilog, SPICE, C/C++, Python, Java"
+    - "<u>Domains:</u> VLSI, Battery Management Systems, Power Management, Avionics"
+
+- title: Achievements
+  type: list
+  contents:
+    - 1st Place – MARVEL CTARA Hackathon 2025
+    - 1st Place – Impetus 2025 AvionX Electrical Subsystem (IEEE UVCE)
+    - Winner – SiliconSprint Digital Design Hackathon (IEEE NITK & RVCE)
+    - 1st Place – Kagada 2023 Project Track (IEEE UVCE)
+    - 1st Place – Science Spectrum (Christ University)
+    - Best Performer Award D-P-001 Level 1 (MARVEL UVCE)
+
+- title: Certifications
+  type: list
+  contents:
+    - VLSI Chip Design and Simulation with Electric VLSI EDA Tool — L&T EduTech / Coursera
+    - Fundamentals of Digital Design for VLSI Chip Design — L&T EduTech / Coursera
+    - FPGA Design for Embedded Systems — University of Colorado Boulder / Coursera
+    - Altium Designer — Altium Education
+    - ROS 2 Fundamentals — Udemy
+
+- title: Volunteering
+  type: time_table
+  contents:
+    - title: Podcast Editor and Host
+      institution: UVCE Graduates Association
+      year: Jan 2024–Now
+      description:
+        - Edited and hosted 13 episodes across Seasons 4–6 of UVCE Chronicles
+    - title: Representative Committee, Coordinator – PELS
+      institution: IEEE UVCE
+      year: May–Oct 2024
+
+- title: Interests
+  type: list
+  contents:
+    - Performing guitarist and vocalist
+    - Table tennis enthusiast
