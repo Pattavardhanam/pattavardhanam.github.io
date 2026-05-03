@@ -5,6 +5,9 @@ description: Full analog design flow on SKY130A — schematic to post-layout ver
 img:
 importance: 1
 category: vlsi
+links:
+  - name: Project Site
+    url: https://pattavardhanam.github.io/lelo_ex_sky130a/
 ---
 
 Designed and verified a CMOS current mirror on the SKY130A PDK on Linux, completing the
