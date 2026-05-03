@@ -5,8 +5,8 @@ permalink: /
 subtitle: >
   ECE Undergraduate · <a href="https://uvce.ac.in">UVCE, Bengaluru</a> ·
   Research Intern, <a href="https://aero.iisc.ac.in">IISc Aerospace Engineering</a> ·
-  Coordinator - Design & Prototyping , <a href="hub.uvcemarvel.in">IISc Aerospace Engineering</a> ·
-  Co-Lead Product Development, <a href="hub.uvcemarvel.in">MARVEL Makerspace</a> 
+  Coordinator - Design & Prototyping , <a href="https://hub.uvcemarvel.in">IISc Aerospace Engineering</a> ·
+  Co-Lead Product Development, <a href="https://hub.uvcemarvel.in">MARVEL Makerspace</a> 
 
 profile:
   align: right
