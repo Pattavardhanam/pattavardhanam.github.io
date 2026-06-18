@@ -4,9 +4,11 @@ title: about
 permalink: /
 subtitle: >
   ECE Undergraduate · <a href="https://uvce.ac.in">UVCE, Bengaluru</a> ·
-  Research Intern, <a href="https://aero.iisc.ac.in">IISc Aerospace Engineering</a> ·
-  Coordinator - Design & Prototyping , <a href="https://hub.uvcemarvel.in">MARVEL UVCE</a> ·
-  Co-Lead Product Development, <a href="https://hub.uvcemarvel.in">MARVEL UVCE</a> 
+  Summer Research Fellow, <a href="https://www.ee.iitm.ac.in">IIT Madras</a> ·
+  Samsung ISWDP Fellow, <a href="https://iisc.ac.in">IISc</a> ·
+  Avionics Team Lead, <a href="https://aero.iisc.ac.in">IISc Aerospace Engineering</a> ·
+  Coordinator - Design & Prototyping, <a href="https://hub.uvcemarvel.in">MARVEL UVCE</a> ·
+  Co-Lead Product Development, <a href="https://hub.uvcemarvel.in">MARVEL UVCE</a>
 
 profile:
   align: right
