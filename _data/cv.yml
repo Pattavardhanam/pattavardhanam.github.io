@@ -1,16 +1,16 @@
 cv:
   name: Aditya B Pattavardhanam
-  label: Student
+  label: ECE Undergraduate | Analog & Mixed-Signal IC Design
   email: aditya.pattavardhanam@gmail.com
   location: Bengaluru, Karnataka, India
   image: ""
-  summary: Electronics and Communication Engineering student at UVCE focused on VLSI, mixed-signal circuits, and avionics power systems. Research Intern at IISc Aerospace Engineering and Incoming Summer Fellow at IIT Madras.
+  summary: ECE undergraduate who loves analog and mixed-signal IC design, with hands-on experience spanning TSMC 180nm and 14nm FinFET characterization in Cadence Virtuoso, full-custom layout in TSMC 180nm and Sky130, and a genuine love for building things – extending into avionics power systems and PCB design.
 
   social_networks:
     - network: LinkedIn
       username: pattavardhanam
     - network: GitHub
-      username: <your-github-username>
+      username: Pattavardhanam
 
   sections:
     Education:
@@ -21,14 +21,14 @@ cv:
         start_date: 2023
         end_date: 2027
         highlights:
-          - "CGPA: 9.07/10 (5th Semester)"
+          - "CGPA: 9.07/10"
 
       - institution: BASE PU College, Rajajinagar
         location: Bengaluru, India
         area: XII — Karnataka State Board
         end_date: 2023
         highlights:
-          - "Score: 91%"
+          - "Score: 90.16%"
 
       - institution: Daffodils English School
         location: Bengaluru, India
@@ -38,128 +38,144 @@ cv:
           - "Score: 91%"
 
     Experience:
-      - company: IISc, Dept. of Aerospace Engineering (Project Urdhyuth)
-        position: Research Intern – Avionics & Propulsion | Team Lead (Avionics)
+      - company: Samsung India Semiconductor Workforce Development Program, IISc
+        position: Trainee, Cohort 8 (Grade II scholarship)
         location: Bengaluru, India
-        start_date: 2025-07
-        end_date: present
-        summary: Guided by Prof. Dineshkumar Harursampath (IISc) and Prof. Ramesh Gupta (NITTR-Bhopal), working on propulsion battery systems and BMS development.
+        start_date: 2026-06
+        end_date: 2026-09
         highlights:
-          - Developing a Power Management System in MATLAB involving load modeling, protection logic, and subsystem interface for an eVTOL platform
-          - Co-designed Li-Ion NMC battery architecture and implemented BMS functions for monitoring, balancing, and safety protection
-          - Actively researching Hardware-Based BMS architectures
+          - TCAD-based semiconductor device simulation using Synopsys Sentaurus; covers process, structure, and electrical characterization workflows
 
       - company: IIT Madras, Dept. of Electrical Engineering
-        position: Incoming Summer Research Fellow
+        position: Summer Research Fellow (ICS group, Prof. Nagendra Krishnapura)
         location: Chennai, India
         start_date: 2026-05
         end_date: 2026-07
         highlights:
-          - Selected for the Summer Fellowship Programme 2026 based on academic credentials
-          - To work on Integrated Circuit Design
+          - Characterized CMOS inverters in TSMC 180nm (Cadence Virtuoso/Spectre) across 20 PVT corners; extracted gain, bandwidth, and switching metrics
+          - Executed full-custom layout (Layout XL), Calibre DRC/LVS, and post-layout parasitic extraction (PEX), validating performance across TT/FF/SS corners on schematic and extracted views
+          - "FinFET benchmarking study: designed and simulated ring oscillators, FO4 inverters, and opamps using 14nm High Performance PTM models; compared propagation delay and drive strength across technology nodes from 7nm to 20nm"
+          - Designed a custom 2-layer breakout PCB for a taped-out chip using Cadence Allegro X Design Platform
 
       - company: MARVEL UVCE, R&D Lab
-        position: Coordinator Design & Prototyping | Co-Lead Product Development
+        position: Coordinator Design & Prototyping | Co-Lead Product Development | VLSI group (Analog)
         location: Bengaluru, India
         start_date: 2023-10
         end_date: present
         highlights:
           - Mentored student electronics designs involving PCB, FPGA, and signal processing
           - Co-leading product development cohort focusing on end-to-end hardware solutions
-          - Co-developed AIR-001 syllabus emphasizing avionics-oriented electronics design
-          - Authored "Before We Scale — Design at the Edge of Intent" for the product cohort
+          - Co-developed the VLSI syllabus to teach the next generation of VLSI enthusiasts, with a personal focus on analog VLSI
+
+      - company: IISc, Dept. of Aerospace Engineering (Project Urdhyuth)
+        position: Research Intern – Team Lead (Avionics)
+        location: Bengaluru, India
+        start_date: 2025-07
+        end_date: 2026-06
+        summary: Non-Linear Multifunctional Composites Analysis and Design Lab. Guided by Prof. Dineshkumar Harursampath (IISc) and Prof. Ramesh Gupta (NITTR-Bhopal).
+        highlights:
+          - Developed a Power Management System in MATLAB involving load modeling, protection logic, and subsystem interface definition for an eVTOL platform
+          - Co-designed Li-Ion NMC battery architecture and implemented Battery Management System functions for monitoring, balancing, and safety protection
 
     Projects:
-      - name: CMOS Current Mirror Design & Verification
-        summary: Full analog design flow on SKY130A — schematic to post-layout verification on Linux.
+      - name: Fully Analog MPPT Controller Tapeout — SKY130A PDK (In Progress)
+        summary: All-analog perturb-and-observe MPPT controller for CubeSat applications, targeting Tiny Tapeout.
         highlights:
-          - Transient, corner, and Monte Carlo simulations; full DRC, LVS, parasitic extraction
-          - Automated GDS, DRC, and LVS checks using GitHub Actions
-        start_date: 2024
+          - Chose a fully analog P&O architecture over RCC, centered on a Gilbert cell multiplier core, with sample-and-hold and StrongARM comparator blocks built for IP reuse
+        start_date: 2026
+
+      - name: Low-Cost Open-Source Maskless Photolithography System (In Progress)
+        summary: Maskless lithography using a DLP2000 DMD as a reconfigurable UV photomask on a Creality CR-10S motion platform.
+        highlights:
+          - Coaxial focus/exposure path for live focus verification, targeting ~10 µm resolution
+          - Scoping a ~20-week build across procurement, integration, calibration, and open-source documentation/release
+        start_date: 2026
 
       - name: HeartGuard — ECG Anomaly Detection Device
         summary: Real-time arrhythmia detection device with custom analog front-end and wireless streaming.
         highlights:
-          - Analog front-end using TI ADS1298 (8-channel, 24-bit ECG AFE) with custom signal conditioning
+          - Designed analog front-end using TI ADS1298 (8-channel, 24-bit ECG AFE) with custom signal conditioning
           - Custom 4-layer PCB in Altium integrating ADS1298, STM32F411 (Cortex-M4), and BLE module
         start_date: 2024
 
-      - name: Hardware-Aware Spectrum Monitoring with Jammer-like Anomaly Detection
+      - name: Hardware-Aware Spectrum Monitoring with Jammer-like Anomaly Detection (CMOS Role)
         summary: Passive spectrum sensing platform for real-time channel occupancy and interference analysis.
         highlights:
-          - StrongARM latch comparator achieving 6–7 mV sensitivity and 10 ns decision time
-          - Validated across noise-only, signal-present, and jammer conditions using LoRa and FPGA
+          - Transistor-level StrongARM latch comparator in Xschem/Ngspice achieving ~6–7 mV sensitivity and ~10 ns decision time
+          - Validated across noise-only, signal-present, and jammer conditions; analyzed metastability, detection margins, and transition dynamics
         start_date: 2024
 
       - name: Hardware Trojan Detection
         summary: RTL-level trojan injection and side-channel detection pipeline.
         highlights:
-          - Designed and injected RTL-level hardware trojans in Verilog to model microarchitectural vulnerabilities
-          - 70,000 cycles of constrained-random stimulus; Python-based switching activity detection pipeline
+          - Injected RTL-level trojans in Verilog; 70,000 cycles of fixed-seed constrained-random stimulus to detect output divergence between clean and trojan ALU variants
+          - Python-based side-channel detection pipeline using switching activity signatures
         start_date: 2024
 
-      - name: CanSat — Can-Sized Satellite
-        summary: Leading power subsystem design for a can-sized satellite platform.
+      - name: CanSat (Can-Sized Satellite) — Power Subsystem Lead
+        summary: Dual-board avionics architecture around a 2S Li-ion pack with TPS563203 buck converters.
         highlights:
-          - Defined power architecture and voltage domains
-          - Executed power budgeting from component datasheets and duty cycles to size regulators
+          - Full power budget (load analysis, battery draw with conversion losses, energy balance) with 79% margin
+          - INA219-based current monitoring across all rails
         start_date: 2024
 
     Skills:
+      - name: Analog Design
+        icon: fa-solid fa-wave-square
+        keywords: "CMOS circuit design, FinFETs, SPICE-level circuit analysis, full-custom layout"
+
       - name: Digital Design
         icon: fa-solid fa-microchip
-        keywords: "RTL (Verilog, SystemVerilog), FPGA (Vivado, Quartus), Verification Testbenches"
+        keywords: "RTL using Verilog, FPGA, Digital Logic"
 
-      - name: Analog / CMOS
-        icon: fa-solid fa-wave-square
-        keywords: "CMOS Circuit Design, SPICE-level Analysis, Signal Conditioning"
+      - name: Embedded & Hardware
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "PCB Design, Power Electronics"
 
-      - name: EDA Tools
+      - name: Tools
         icon: fa-solid fa-tools
-        keywords: "Vivado, Altium Designer, KiCad, LTspice, Ngspice, MATLAB"
-
-      - name: Programming
-        icon: fa-solid fa-code
-        keywords: "Verilog, SystemVerilog, SPICE, C/C++, Python, Java"
+        keywords: "Cadence Virtuoso & Allegro X Design Platform, Open Source EDA analog workflows, Vivado, Altium Designer, KiCad, MATLAB"
 
       - name: Domains
         icon: fa-solid fa-layer-group
         keywords: "VLSI, Battery Management Systems, Power Management, Avionics"
 
+      - name: Coding Languages
+        icon: fa-solid fa-code
+        keywords: "SPICE, Verilog, C/C++, Java"
+
     Awards:
       - title: 1st Place – MARVEL CTARA Hackathon 2025
         awarder: MARVEL UVCE
         date: 2025
+        summary: Built and pitched a working hardware prototype for smart agriculture using IoT
 
       - title: 1st Place – Impetus 2025 AvionX Electrical Subsystem
         awarder: IEEE UVCE
         date: 2025
+        summary: Designed a dynamic DC-DC power converter as the electrical subsystem for a UAV design challenge
 
       - title: Winner – SiliconSprint Digital Design Hackathon
         awarder: IEEE NITK & RVCE
         date: 2024
+        summary: Built the Hardware Trojan Detection project in a 24-hour hackathon
 
       - title: 1st Place – Kagada 2023 Project Track
         awarder: IEEE UVCE
         date: 2023
+        summary: Won the project track for an original electronics build extracting electricity from railway track heat
 
       - title: 1st Place – Science Spectrum
         awarder: Christ University
         date: 2023
+        summary: First place in an inter-collegiate science and engineering exhibition for a rescue ops and disaster management project
 
-      - title: Best Performer Award D-P-001 Level 1
+      - title: Best Performer Award – D-P-001 Level 1
         awarder: MARVEL UVCE
         date: 2024
+        summary: Top performer in MARVEL's foundational design & prototyping course
 
     Certificates:
-      - name: VLSI Chip Design and Simulation with Electric VLSI EDA Tool
-        issuer: L&T EduTech / Coursera
-        icon: fa-solid fa-microchip
-
-      - name: Fundamentals of Digital Design for VLSI Chip Design
-        issuer: L&T EduTech / Coursera
-        icon: fa-solid fa-microchip
-
       - name: FPGA Design for Embedded Systems
         issuer: University of Colorado Boulder / Coursera
         icon: fa-solid fa-server
@@ -168,9 +184,9 @@ cv:
         issuer: Altium Education
         icon: fa-solid fa-pen-ruler
 
-      - name: ROS 2 Fundamentals
-        issuer: Udemy
-        icon: fa-solid fa-robot
+      - name: MARVEL UVCE Level 1 & 2 (electronics design & prototyping)
+        issuer: MARVEL UVCE
+        icon: fa-solid fa-microchip
 
     Volunteer:
       - company: UVCE Graduates Association
@@ -178,7 +194,7 @@ cv:
         location: Bengaluru, India
         start_date: 2024-01
         end_date: present
-        summary: Edited and hosted 13 episodes across Seasons 4–6 of UVCE Chronicles.
+        summary: Edited and hosted 14 episodes from season 4 to 7 of UVCE Chronicles.
 
       - company: IEEE UVCE
         position: Representative Committee, Coordinator – Power Electronics Society (PELS)
@@ -194,3 +210,7 @@ cv:
       - name: Sports
         icon: fa-solid fa-table-tennis-paddle-ball
         keywords: "Table tennis enthusiast"
+
+      - name: Aviation & Space
+        icon: fa-solid fa-rocket
+        keywords: "Aviation & Space Tech"
