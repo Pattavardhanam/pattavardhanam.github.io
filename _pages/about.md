@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
   ECE Undergraduate · <a href="https://uvce.ac.in">UVCE, Bengaluru</a> ·
-  Summer Research Fellow, <a href="https://www.ee.iitm.ac.in">IIT Madras</a> ·
+  Summer Research Fellow ’26, <a href="https://www.ee.iitm.ac.in">IIT Madras</a> ·
   Samsung ISWDP Fellow, <a href="https://iisc.ac.in">IISc</a> ·
   Avionics Team Lead, <a href="https://aero.iisc.ac.in">IISc Aerospace Engineering</a> ·
   Coordinator - Design & Prototyping, <a href="https://hub.uvcemarvel.in">MARVEL UVCE</a> ·
@@ -28,18 +28,19 @@ latest_posts:
   limit: 3
 ---
 
-I am a third-year Electronics and Communication Engineering undergraduate at the
+I am a fourth-year Electronics and Communication Engineering undergraduate at the
 [University of Visvesvaraya College of Engineering (UVCE)](https://uvce.ac.in), Bengaluru,
-with a CGPA of 9.07. My work sits at the intersection of analog IC design, mixed-signal
-systems, and embedded hardware — I care about circuits that interact with the physical world
-at the signal level.
+specializing in analog and mixed-signal IC design. My work sits at the intersection of
+analog circuits, mixed-signal systems, and embedded hardware — I care about circuits that
+interact with the physical world at the signal level.
 
-I serve as **Co-Lead of Product Development** and **Coordinator for Design & Prototyping**
-at [MARVEL](https://uvce.ac.in), a student-run, alumni-funded makerspace at UVCE focused on
-hands-on engineering and open-source hardware. I am currently a **Summer Research Fellow at
-IIT Madras** (IC Design and Testing Group, under Prof. Nagendra Krishnapura) and a
-**Cohort 8 Fellow in the Samsung ISWDP program at IISc**. I also serve as **Avionics Team
-Lead** for Project Urdhyuth at IISc's Department of Aerospace Engineering.
+This summer I was a Summer Research Fellow at IIT Madras (IC Design and Testing Group, under
+Prof. Nagendra Krishnapura), working on FinFET benchmarking and characterization. I am also
+a **Cohort 8 Fellow in the Samsung ISWDP program at IISc** and **Avionics Team Lead** for
+Project Urdhyuth at IISc's Department of Aerospace Engineering. On campus, I am
+**Co-Lead of Product Development** and **Coordinator for Design & Prototyping** at
+[MARVEL](https://hub.uvcemarvel.in), a student-run, alumni-funded makerspace at UVCE focused
+on hands-on engineering and open-source hardware.
 
 My active technical work includes:
 
@@ -49,10 +50,15 @@ My active technical work includes:
 - **VLSI & FinFET Characterization** — TSMC 180nm/14nm FinFET characterization in Cadence
   Virtuoso/Spectre across 20 PVT corners; full-custom layout, Calibre DRC/LVS/PEX, and
   benchmarking across PTM model nodes (7nm–20nm)
-- **RF/Spectrum Systems** — Hardware-aware spectrum monitoring of the 865–867 MHz ISM band,
-  combining an envelope detector, CMOS StrongARM comparator, and FPGA-based FFT (Basys3)
+- **Comparators & Spectrum Sensing** — StrongARM comparator verification in the SKY130A
+  flow, and hardware-aware monitoring of the 865–867 MHz ISM band combining an envelope
+  detector, CMOS StrongARM comparator, and FPGA-based FFT (Basys3)
+- **Maskless Photolithography** — Low-cost, open-source DLP-based maskless lithography
+  system under the MARVEL HackerFab Initiative (engineering major project)
 - **Embedded Hardware** — HeartGuard HG V1.1, a reduced-lead arrhythmia detection PCB using
   ADS1298 + STM32F411 + BLE, targeting real-time ECG classification with minimal leads
 
-My tool stack includes Cadence Virtuoso/Spectre, Calibre, Xschem, ngspice, Magic, Netgen,
-volare, and the SKY130A PDK, across both commercial and open-source EDA workflows.
+My tool stack includes Cadence Virtuoso/Spectre, Calibre, Allegro, Xschem, ngspice, Magic,
+Netgen, volare, and the SKY130A PDK, across both commercial and open-source EDA workflows.
+
+I am looking for analog design and layout internship and full-time roles. Reach me by email.
